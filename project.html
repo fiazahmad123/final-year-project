@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="project.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        function redirectToEventPage() {
+            // Redirect to event.html
+            window.location.href = "events.html";
+        }
+    </script>
+    <div class="continer">
+        <div class="w0">
+            <h1>Event Managment</h1>
+        </div>
+        <div class="w1">
+
+            <a href="" id="m1">Home</a>
+            <a href="" id="m1">Services </a>
+            <a href="contact.html" id="m1">Contact us</a>
+            <a href="" id="m1">Sign in</a>
+            <a href="" id="m1">About us</a>
+            <a href="" id="m1">Pofiles</a>
+        </div>
+        <div id="ml">
+            <marquee></marquee>
+            <h1>Event Managment System & services</h1>
+            </marquee>
+        </div>
+        <button id="m2" onclick="redirectToEventPage()">Post Event</button>
+        <!-- <div id = "m3"> Events Managment system</div> -->
+
+        <div id="w3">
+            <h1>Search Manager</h1>
+        </div>
+        <form action="#" method="post">
+            <div class="w2">
+                <label for select>Services</label>
+
+                <select id="m4" name="#">
+                    <option value="wedding">Wedding</option>
+
+                    <option value="birthday">Birthday</option>
+                    <option value="cermoney">Cermoney</option>
+                    <option value="mariage">Marriage</option>
+                </select>
+                <label for select>Status </label>
+
+                <select id="m4" name="#">
+                    <option value="wedding">Expert</option>
+                    <option value="wedding">Biginer</option>
+                    <option value="wedding">Student</option>
+
+                </select>
+                <label for select>City</label>
+                <select id="m4" name="#">
+                    <option value="lahore">Lahore</option>
+                    <option value="karachi">Karachi</option>
+                    <option value="multan">Multan</option>
+                    <option value="islambad">Islambad</option>
+                </select>
+                <label for select>Location</label>
+                <select id="m4" name="#">
+                    <option value="D H Q">D H Q</option>
+                    <option value="KALMA CHOK">KALMA CHOK</option>
+                    <option value="WADDAD ROAD">WADDAD ROAD</option>
+                    <option value="MC ROAD">MC ROAD</option>
+                </select>
+
+                <label>From date </label>
+                <br>
+
+                <input type="date" id="m5">
+
+                <label for date>time</label>
+                <input type="time" id="m5">
+
+                <label>To date</label>
+
+                <input type="date" id="m5">
+
+                <label for date>time</label>
+                <input type="time" id="m5">
+                <input type="submit" id="m6" value="Find">
+
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

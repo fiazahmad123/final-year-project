@@ -1,0 +1,175 @@
+.continer {
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    /* Or set a specific width */
+    height: 740px;
+    /* Adjust according to your background image's height */
+    background-image: linear-gradient(rgba(3, 0, 0, 5), rgba(255, 0, 15, 0), rgba(248, 18, 10, 0.726)110%), url('bgImage1.jpg');
+    background-size: cover;
+    /* Or use other appropriate sizing */
+    background-position: center;
+    /* Or adjust as needed */
+}
+
+.w0 {
+    font-style: oblique;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 50px;
+    width: 500px;
+    color: aliceblue;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.w1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    height: 30px;
+    margin-top: 10px;
+    color: aliceblue;
+    /* background-color: #d60265; */
+
+    float: right;
+
+
+}
+
+#m1 {
+    color: rgb(252, 252, 252);
+    font-size: larger;
+    border-radius: 10px;
+
+
+}
+
+#m1:hover {
+    background-color: rgb(214, 111, 15);
+}
+
+#m2 {
+    border-color: white;
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: #16df20;
+    display: flex;
+    margin-top: 25%;
+    border-color: aliceblue;
+    margin-left: 7%;
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+    float: left;
+    /* border:3px solid rgb(39, 148, 54); */
+}
+
+#m2:hover {
+
+    background-color: rgb(211, 95, 17);
+
+}
+
+#ml {
+    color: rgb(240, 240, 231);
+    font-size: larger;
+    /* background-color: chartreuse; */
+    /* margin-top: 370px;
+    margin-right: 1000px; */
+    /* width: 12px; */
+    /* float: right;*/
+    display: flex;
+    justify-content: start;
+    position: relative;
+    animation-delay: 0s;
+    animation: colore 40s ease-in 1s infinite;
+}
+
+@keyframes colore {
+    50% {
+        left: 0px;
+    }
+
+    100% {
+        left: 600px;
+    }
+}
+
+.w2 {
+    height: 110px;
+    width: 99%;
+    background-image: linear-gradient(rgb(15, 15, 15), rgb(34, 8, 8));
+    background-blend-mode: darken;
+    bottom: 0px;
+    position: fixed;
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+    justify-content: space-around;
+    
+}
+
+label {
+    margin-top: 0;
+    color: rgb(255, 252, 252);
+}
+
+#m4 {
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+    color: rgb(0, 0, 0);
+}
+
+#m4:hover {
+
+    background-color: rgb(255, 255, 255);
+}
+
+#m5 {
+
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+
+}
+
+#m6 {
+    margin-top: 20px;
+    height: 30px;
+    width: 70px;
+    margin-left: 0px;
+    background-color: rgb(13, 243, 109);
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+#m6:hover {
+    margin-left: 3px;
+    background-color: rgb(233, 66, 15);
+}
+
+#w3 {
+    font-size: larger;
+    display: flex;
+    margin-top: 550px;
+    height: 50px;
+    width: 300px;
+    color: aliceblue;
+    margin-left: 650px;
+
+}
+
+#ml {
+    display: inline-block;
+    float: right;
+    margin-top: 200px;
+    margin-right: 700px;
+
+}
