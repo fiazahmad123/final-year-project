@@ -7,6 +7,7 @@ if(isset($_POST['submit'])) {
         $image = $_FILES['myfile']['name'];
         $images = $_FILES['myfile']['tmp_name'];
         $path = "file/".$image;
+        
 $id = $_POST['id'];
         $nami = $_POST['name'];
         $experience = $_POST['experince'];

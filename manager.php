@@ -12,23 +12,25 @@
 
    <div  id = "mdn">
     <label for = "search">search</label> &nbsp &nbsp
-    <input type = "search" id = "serch" placeholder = "search here ">
+    <input type = "search" id = "search" placeholder = "search here ">
    </div>
+   <div id = "data"></div>
    <script>
-$(#serch).on("keyup", function(){
-    var search-item = $(this).value;
-$.ajax ({
-url : "sarch.php",
-type: "post",
-data : {search:search-item};
-success : function(data);
+$("#search").on("keyup", function() {
 
+    
 
-})
-
-})
-
-    </script>
+    var search_item = $(this).val();
+    $.ajax({
+        url: "sarch.php",
+        type: "post",
+        data: { search: search_item },
+        success: function(data) {
+   $("#data").html(data);
+        }
+    });
+});
+</script>
 
 
     <?php 
@@ -65,5 +67,6 @@ success : function(data);
     </div>
     <?php }
     ?>
+
 </body>
 </html>
